@@ -1,6 +1,6 @@
-﻿namespace CalculatorInLearning
+﻿namespace Calculator
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,10 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            SuspendLayout();
+            // 
+            // Main
+            // 
+            this.AutoScaleDimensions = new SizeF(11F, 24F);
+            this.AutoScaleMode = AutoScaleMode.Font;
+            this.ClientSize = new Size(684, 417);
+            this.Margin = new Padding(2, 2, 2, 2);
+            this.MaximumSize = new Size(700, 460);
+            this.MinimumSize = new Size(700, 460);
+            this.Name = "Main";
+            this.Text = "Calculator test";
+            Load += Main_Load;
+            ResumeLayout(false);
         }
 
         #endregion
