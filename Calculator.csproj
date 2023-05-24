@@ -26,4 +26,10 @@
     <NoWarn />
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Update="Properties\CASIOClassWizCW01.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

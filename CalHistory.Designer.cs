@@ -38,6 +38,7 @@
             resources.ApplyResources(this.ShowHistory, "ShowHistory");
             this.ShowHistory.Name = "ShowHistory";
             this.ShowHistory.ReadOnly = true;
+            this.ShowHistory.TextChanged += ShowHistory_TextChanged;
             // 
             // CleanHistory
             // 
