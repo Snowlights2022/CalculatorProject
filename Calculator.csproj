@@ -2,10 +2,39 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net7.0-windows10.0.22000.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <SignAssembly>False</SignAssembly>
+    <Authors>Snowlights</Authors>
+    <Company>OS </Company>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AnalysisLevel>6.0-all</AnalysisLevel>
+    <ApplicationIcon>Properties\bitbug_favicon.ico</ApplicationIcon>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <WarningLevel>7</WarningLevel>
+    <NoWarn />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <WarningLevel>7</WarningLevel>
+    <NoWarn />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Properties\bitbug_favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\CASIOClassWizCW01.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
