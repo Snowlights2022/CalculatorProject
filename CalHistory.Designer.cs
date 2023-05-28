@@ -29,29 +29,30 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalHistory));
-            this.ShowHistory = new TextBox();
-            this.CleanHistory = new Button();
+            ShowHistory = new TextBox();
+            CleanHistory = new Button();
             SuspendLayout();
             // 
             // ShowHistory
             // 
-            resources.ApplyResources(this.ShowHistory, "ShowHistory");
-            this.ShowHistory.Name = "ShowHistory";
-            this.ShowHistory.ReadOnly = true;
-            this.ShowHistory.TextChanged += ShowHistory_TextChanged;
+            resources.ApplyResources(ShowHistory, "ShowHistory");
+            ShowHistory.Name = "ShowHistory";
+            ShowHistory.ReadOnly = true;
+            ShowHistory.TextChanged += ShowHistory_TextChanged;
             // 
             // CleanHistory
             // 
-            resources.ApplyResources(this.CleanHistory, "CleanHistory");
-            this.CleanHistory.Name = "CleanHistory";
-            this.CleanHistory.UseVisualStyleBackColor = true;
+            resources.ApplyResources(CleanHistory, "CleanHistory");
+            CleanHistory.Name = "CleanHistory";
+            CleanHistory.UseVisualStyleBackColor = true;
+            CleanHistory.Click += CleanHistory_Click;
             // 
-            // CalHistory
+            // CalHis
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = AutoScaleMode.Font;
-            this.Controls.Add(this.CleanHistory);
-            this.Controls.Add(this.ShowHistory);
+            this.Controls.Add(CleanHistory);
+            this.Controls.Add(ShowHistory);
             this.Name = "CalHistory";
             this.ShowInTaskbar = false;
             ResumeLayout(false);
