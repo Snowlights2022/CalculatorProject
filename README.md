@@ -1,4 +1,6 @@
 # CalculatorProject
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSnowlights2022%2FCalculatorProject.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FSnowlights2022%2FCalculatorProject?ref=badge_shield)
+
 # Project Introduction
 This is a test for me to use C# building a calculator project. The project is mainly based on C#, and in the future it may be updated within other languages, for example, C and Python.Most importantly, the author IS NOT someone have English as the mother tongue. Please forgive expression unclear due to me.
 # Features
@@ -14,3 +16,6 @@ This is a test for me to use C# building a calculator project. The project is ma
  4.Support function nesting (current function nesting may cause calculation errors or errors)
  5.Support the mixing of function nesting and bracket nesting
 Please read SimplyfiiedChinese(简体中文) Edition to get more accurate description about the program.
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSnowlights2022%2FCalculatorProject.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FSnowlights2022%2FCalculatorProject?ref=badge_large)
